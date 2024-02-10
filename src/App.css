@@ -1,0 +1,68 @@
+.center{
+  display: flex;
+  justify-content: center;
+}
+.notes{
+  margin-top: 10px;
+  background-color: rgb(140, 201, 255);
+  text-align: center;
+  width: 300px;
+  flex-direction: column;
+  height: fit-content;
+}
+.input-and-button input{
+  width: 200px;
+  display: flex;
+  margin: 5px 5px 5px 50px;
+}
+.input-and-button textarea{
+  display: flex;
+  justify-content: center;
+  margin: 5px 5px 5px 0px;
+}
+.add{
+  font-size: 15px;
+  text-align: center;
+  width: 100px;
+  background-color: rgb(170, 255, 79);
+  border: 2px solid rgb(162, 217, 80);
+  margin-bottom: 5px;
+  padding: 5px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+.delete{
+  font-size: 15px;
+  text-align: center;
+  width: 100px;
+  background-color: rgb(255, 108, 79);
+  border: 2px solid rgb(217, 107, 80);
+  margin-bottom: 5px;
+  padding: 5px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+.note-item{
+  background-color: rgb(131, 207, 255);
+  margin: 10px 20px 10px 20px;
+  padding: 20px;
+  width: fit-content;
+  height: 80px;
+  box-shadow: 10px 10px 10px rgb(155, 170, 185);
+
+}
+.note-item hr{
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.note-item button{
+  background-color: rgb(255, 125, 125);
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  border: none;
+  position: absolute;
+}
+.note-text{
+  margin-top: 20px;
+}
